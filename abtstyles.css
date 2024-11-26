@@ -1,0 +1,130 @@
+/* Styles for About Page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    color: #ffefde;
+}
+
+.about-intro {
+    text-align: center;
+    color: #ffefde;
+    padding: 20px;
+    background: url('hero2.jpeg') no-repeat center center/cover;
+    height: 50vh;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.about-intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffefde;
+}
+
+.vision-mission {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.vision, .mission {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.vision h2, .mission h2 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.vision p {
+    text-align: center;
+}
+
+.mission ul {
+    color: #555;
+}
+
+.mission ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.benefits {
+    text-align: center;
+    padding: 20px;
+}
+
+.benefits h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.points ul {
+    text-align: left;
+    list-style: decimal-leading-zero;
+    padding-left: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.9rem;
+}

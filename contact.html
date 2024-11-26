@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Entertainment - Contact Us</title>
+    <link rel="stylesheet" href="cntctstyles.css">
+</head>
+<body>
+    <header>
+        <a href="my.html">MY Entertainment</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Artists</a></li>
+                <li><a href="audition.html">Audition</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us through the form below or via our contact details.</p>
+        <div class="contact-container">
+            <div class="contact-details">
+                <h3>MY Entertainment Center</h3>
+                <p><strong>Address:</strong>No.14 Kalisari Raya Street, East Jakarta District, Jakarta 13790 , Indonesia</p>
+                <p><strong>Email:</strong>muhhanifihis.6126@gmail.com</p>
+                <p><strong>Phone:</strong>+62 852 1033 4304</p>
+                <p><strong>Working Hours:</strong> Mon-Fri, 9:00 AM - 6:00 PM</p>
+            </div>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="general questions">General questions</option>
+                        <option value="suggestions">Suggestions</option>
+                        <option value="else">Else</option>
+                    </select>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MY Entertainment. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
